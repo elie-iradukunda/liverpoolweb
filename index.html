@@ -102,56 +102,51 @@
 
   </div>
   
- <div class="w-full">
-  
-  <div class="bg-blue-900 text-white px-6 py-6 flex flex-col md:flex-row md:items-center md:justify-between gap-4">
-    <div class="flex">
-
-      <input type="text" placeholder="Find your course" class="flex-1 px-4 py-3 rounded-l-lg text-gray-900 focus:outline-none" />
-      <button class="px-6 py-3 bg-white text-blue-900 font-semibold rounded-r-lg hover:bg-gray-100">Search</button>
-    </div>
-    <div class="flex gap-6 items-center">
-      <label class="flex items-center gap-2 cursor-pointer">
-        <input type="radio" name="course" class="accent-blue-600" /> <span>Undergraduate</span>
-      </label>
-      <label class="flex items-center gap-2 cursor-pointer">
-        <input type="radio" name="course" class="accent-blue-600" /> <span>Postgraduate taught</span>
-      </label>
-      <label class="flex items-center gap-2 cursor-pointer">
-        <input type="radio" name="course" class="accent-blue-600" /> <span>Postgraduate research</span>
-      </label>
-      <div class="flex flex-col text-sm underline">
-        <a href="#">Courses by A-Z</a>
-        <a href="#">Courses by subject</a>
+<section class="bg-[#1b2550] py-8">
+  <div class="max-w-7xl mx-auto px-6">
+    
+    <div class="flex flex-col md:flex-row md:items-center md:justify-center gap-6">
+      
+      <div class="flex items-center w-full md:w-2/3">
+        <label for="course" class="text-white font-bold mr-4 whitespace-nowrap">
+          Find your course
+        </label>
+        <input 
+          type="text" 
+          id="course" 
+          placeholder="" 
+          class="w-full px-4 py-2 border border-white bg-white text-gray-900 focus:outline-none"
+        >
+        <button class="ml-2 px-6 py-2 border border-white text-white hover:bg-white hover:text-[#1b2550] transition">
+          Search
+        </button>
       </div>
+
+     
+      <div class="flex flex-col text-white space-y-1">
+        <a href="#" class="underline">Courses by A-Z</a>
+        <a href="#" class="underline">Courses by subject</a>
+      </div>
+    </div>
+
+ 
+    <div class="flex flex-wrap items-center gap-6 mt-6 text-white justify-center">
+      <label class="flex items-center gap-2 cursor-pointer">
+        <input type="radio" name="course-type" class="w-5 h-5 accent-blue-950">
+        Undergraduate
+      </label>
+      <label class="flex items-center gap-2 cursor-pointer">
+        <input type="radio" name="course-type" class="w-5 h-5  accent-blue-950">
+        Postgraduate taught
+      </label>
+      <label class="flex items-center gap-2 cursor-pointer">
+        <input type="radio" name="course-type" class="w-5 h-5  accent-blue-950">
+        Postgraduate research
+      </label>
     </div>
   </div>
+</section>
 
-  
-  <section class="max-w-7xl mx-auto px-6 py-16 grid lg:grid-cols-2 gap-10 items-center">
-    <div class="rounded-2xl overflow-hidden shadow-lg">
-      <img src="./images/uni.jpeg" alt="University of Liverpool Campus" class="w-full h-full object-cover" />
-    </div>
-    <div class="space-y-6">
-      <h2 class="text-3xl md:text-4xl font-bold text-gray-900">Discover the University of Liverpool</h2>
-      <p class="text-gray-700 leading-relaxed">
-        We are the University of Liverpool. Located at the heart of a thrilling world city,
-        we are a dynamic institution of academic excellence and innovation, making a positive
-        impact across the United Kingdom and the wider world.
-      </p>
-      <p class="text-gray-700 leading-relaxed">
-        Since 1881, we've been at the forefront of world-class research and education, known
-        for our cutting-edge facilities and relentless pursuit of excellence and achievement.
-        Find out how you can be part of our vibrant community and explore the work we're doing
-        with our famous home city.
-      </p>
-      <div class="flex flex-wrap gap-4">
-        <a href="#" class="px-6 py-3 rounded-xl border-2 text-white font-medium shadow  transition">Learn about us</a>
-        <a href="#" class="px-6 py-3 rounded-xl border border-gray-300 text-gray-800 font-medium hover:bg-gray-100 transition">Liverpool: Our city, our inspiration</a>
-      </div>
-    </div>
-  </section>
-</div>
 
 
 <section class="w-full">
@@ -426,6 +421,99 @@
     </div>
   </div>
 </section>
+
+
+<section class="max-w-7xl mt-9 grid md:grid-cols-2 mx-4">
+ 
+  <div class="bg-[#1b2550] text-white px-8 py-16 flex items-center ">
+    <div>
+      <h2 class="text-2xl md:text-3xl font-bold mb-4">
+        We're making an impact across the globe
+      </h2>
+      <p class="text-base md:text-lg mb-8 max-w-xl leading-relaxed">
+        We're proud to be part of a global community, where collaboration drives our success and impact across the world. Find out more about our commitment to global engagement and how we’re making a difference to the world.
+      </p>
+      <div class="flex flex-wrap gap-4">
+        <a href="#" class="border border-white px-6 py-3 text-base text-white hover:underline">
+          Explore our global partnerships
+        </a>
+        <a href="#" class="border border-white px-6 py-3 text-base text-white hover:underline">
+          Work with us
+        </a>
+      </div>
+    </div>
+  </div>
+
+ 
+  <div>
+    <img src="./images/allow.webp" alt="Global impact" class="w-full h-full object-cover">
+  </div>
+</section>
+
+
+<section class="bg-gray-50 py-12">
+  <div class="max-w-7xl mx-auto px-6">
+    
+    
+    <h2 class="text-2xl md:text-3xl font-bold text-gray-900 mb-8">
+      Latest news
+    </h2>
+    
+   
+    <div class="grid md:grid-cols-2 gap-6">
+     
+      <div class="bg-white p-6">
+        <div class="grid grid-cols-2 gap-4 mb-4">
+          <img src="./images/biri.png" alt="News image" class="w-full h-auto object-cover">
+          <p class="text-sm text-gray-600 mb-2">27 AUGUST 2025</p>
+        </div>
+       
+        <a href="#" class="block text-lg font-bold text-indigo-900 underline mb-3">
+          Exceptional Liverpool scientists honoured with Royal Society awards
+        </a>
+        <p class="text-gray-700 text-base leading-relaxed">
+          Professors Matt Rosseinsky OBE FRS and Andy Cooper FRS, from the Department of Chemistry and the Materials Innovation Factory, have both been honoured with prestigious awards from the Royal Society.
+        </p>
+      </div>
+      
+    
+      <div class="flex flex-col gap-4">
+        <div class="bg-white p-6">
+          <p class="text-sm text-gray-600 mb-2">26 AUGUST 2025</p>
+          <a href="#" class="block text-lg font-bold text-indigo-900 underline">
+            University's Beatles MA returns in distance-learning format
+          </a>
+        </div>
+        
+        <div class="bg-white p-6">
+          <p class="text-sm text-gray-600 mb-2">18 AUGUST 2025</p>
+          <a href="#" class="block text-lg font-bold text-indigo-900 underline">
+            Liverpool Literary Festival is back for its 10th year
+          </a>
+        </div>
+        
+        <div class="bg-white p-6">
+          <p class="text-sm text-gray-600 mb-2">15 AUGUST 2025</p>
+          <a href="#" class="block text-lg font-bold text-indigo-900 underline">
+            Spotlight on Workshops at BSF 2025
+          </a>
+        </div>
+      </div>
+      
+    </div>
+    
+   
+    <div class="mt-8">
+      <a href="#" class="border border-gray-800 px-6 py-3 text-base text-gray-900 hover:bg-gray-100 transition">
+        Read more news
+      </a>
+    </div>
+    
+  </div>
+</section>
+
+
+
 
 
 
